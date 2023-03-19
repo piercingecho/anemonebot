@@ -21,8 +21,12 @@ Create a directory named "Cogs", and place every file not named 'bot.py' into th
 You will also need to create a .txt file with the following text exactly. On each line, replace the information to the right of the = with the data detailed within <>.
 
 DISCORD_TOKEN = <token copy-pasted from discord dashboard, as described in the above link.>
+
 TEAM_GUILD = <From discord developer mode, copy the ID of the guild that will utilize this bot. This is the same guild you invited it to earlier.>
+
 TEAM_GUILD_GENERAL = <from discord developer mode, copy the ID of the text channel you want messages to new members to be sent.>
+
+
 
 Afterwards, rename the extension from '.txt' to '.env' and place it in the same directory as bot.py.
 
