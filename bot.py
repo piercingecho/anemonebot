@@ -1,4 +1,5 @@
 #importing files and discord library
+#ensure that you first pip install py-cord
 import os
 import dotenv
 import discord
@@ -42,9 +43,9 @@ async def reload(ctx, extension):
     bot.load_extension(f'cogs.{extension}')
 
 #for implementing each cog
-for filename in os.listdir('./anemonespotted/cogs'):
-    if filename.endswith('.py'):
-        bot.load_extension(f'cogs.{filename[:-3]}')
+for filename in os.listdir():
+    if filename.endswith('cog.py'):
+        bot.load_extension(f'{filename[:-3]}')
 
 @bot.event
 async def on_ready():
