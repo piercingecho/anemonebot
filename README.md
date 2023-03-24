@@ -11,11 +11,6 @@ You will need to download python and pip in their latest versions. Afterwards, t
 
 You will need to create a Discord token, and then invite the token to the server that you will use it in. Use the following link for more guidelines: https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token
 
-### Directory setup
-
-Take all files from this repository, and unzip them into a given directory.
-Create a directory named "Cogs", and place every file not named 'bot.py' into that directory. Ensure the folder "Cogs" is in the same directory as "bot.py."
-
 ### .env setup
 
 You will also need to create a .txt file with the following text exactly. On each line, replace the information to the right of the = with the data detailed within <>.
